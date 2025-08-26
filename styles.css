@@ -61,15 +61,45 @@ h2 {
 
 .images {
     display: flex;
-    gap: 30px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center
+    border: solid;
+
+    
+    
 }
+
+.one {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: solid;
+
+
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+}
+
+.four {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+}
+
 
 img {
     border-radius: 15px;
 }
 
-.texts {
-    display: flex;
-    font-size: 15px;
-    gap: 30px;
-}
+
