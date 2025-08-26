@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+}
+
+
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    display: flex; 
+    /* border: solid; for reference  */
+    background-color: #1f2937;
+    color: white;
+    padding: 30px 100px;
+}
+
+
+
+.links {
+    display: flex;
+    justify-content: space-ar;
+    gap: 20px;
+    /* border: solid; for reference  */
+    margin-left: auto;
+    align-items: center;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.intro {
+    display: flex; 
+    background-color: #1f2937;
+    color: white;
+    padding: 100px 100px;
+}
+
+.right-hero {
+    margin-left: auto;
+    
+}
