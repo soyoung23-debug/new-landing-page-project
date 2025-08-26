@@ -40,6 +40,36 @@ ul {
 }
 
 .right-hero {
-    margin-left: auto;
+    margin-left: auto; 
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
     
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    weight: 900;
+}
+
+.images {
+    display: flex;
+    gap: 30px;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.texts {
+    display: flex;
+    font-size: 15px;
+    gap: 30px;
 }
