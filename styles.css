@@ -85,36 +85,45 @@ h2 {
     align-items: center;
     justify-content: center;
     margin: 20px 60px;
-    flex-shrink: 1;
+    flex: 1;
     max-width: 800px;
-    max-height: 1000px;
-    border: dotted;
+    max-height: 1200px;
+    align-items: stretch;
+    text-align: justify;
+
 }
 
 .one {
     display: flex;
     flex-direction: column;
-    border: solid;
     align-items: center;
+    gap: 7px;
+    width: 250px;
     
 }
 
 .two {
     display: flex;
     flex-direction: column;
-    border: solid;
+    align-items: center;
+    gap: 7px;
+    width: 250px;
 }
 
 .three {
     display: flex;
     flex-direction: column;
-    border: solid;
+    align-items: center;
+    gap: 7px;
+    width: 250px;
 }
 
 .four {
     display: flex;
     flex-direction: column;
-    border: solid;
+    align-items: center;
+    gap: 7px;
+    width: 250px;
 }
 
 img {
